@@ -1959,7 +1959,8 @@ html.has-modal .modal-close-button {
 .category-eyebrow__category {
     text-transform: uppercase;
     color: #6e6e73;
-    border-color: #6e6e73
+    border-color: #6e6e73;
+    padding-top: 45px;
 }
 
 .theme-dark .category-eyebrow__category {
