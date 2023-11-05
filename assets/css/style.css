@@ -136,7 +136,7 @@ body {
 }
 
 body a {
-    color: #3b2d2d;
+    color: #0b7fee;
     text-decoration: none;
     transition: color 0.25s cubic-bezier(0.33, 1, 0.68, 1)
 }
