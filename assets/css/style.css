@@ -136,9 +136,17 @@ body {
 }
 
 body a {
-    color: #3b2d2d;
+    color: #06c;
     text-decoration: none;
     transition: color 0.25s cubic-bezier(0.33, 1, 0.68, 1)
+}
+
+body a:hover {
+    text-decoration: none;
+}
+
+.pagebody-copy a:hover{
+    text-decoration: none;
 }
 
 body button,body input,body select,body textarea {
