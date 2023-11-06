@@ -146,7 +146,7 @@ body a:hover {
 }
 
 .pagebody-copy a:hover{
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 body button,body input,body select,body textarea {
