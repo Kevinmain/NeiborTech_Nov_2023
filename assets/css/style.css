@@ -136,7 +136,7 @@ body {
 }
 
 body a {
-    color: #0b7fee;
+    color: #3b2d2d;
     text-decoration: none;
     transition: color 0.25s cubic-bezier(0.33, 1, 0.68, 1)
 }
@@ -458,7 +458,7 @@ body img {
 }
 
 .common-background--grey {
-    background: #FFFFFF
+    background: #ffffff
 }
 
 .common-background--white {
