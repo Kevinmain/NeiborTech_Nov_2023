@@ -1191,9 +1191,6 @@ body img {
     width: 100%
 }
 
-.common-shape--top-grey-down-left:before,.common-shape--top-white-down-left:before {
-    background-image: url(../images/shape-top-down-left.svg)
-}
 
 .common-shape--top-grey-down-right:before,.common-shape--top-white-down-right:before {
     background-image: url(../images/shape-top-down-right.svg)
