@@ -978,7 +978,7 @@ body img {
 }
 
 .common-gradient--grey-to-white {
-    background: linear-gradient(0deg, #FFF, #FCF5ED)
+    background: linear-gradient(0deg, #FFF, #ffffff)
 }
 
 .common-gradient--white-to-grey {
