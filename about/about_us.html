@@ -42,8 +42,392 @@
     }
   </script>
   <script defer data-domain="rubyonrails.org" src="https://plausible.io/js/script.js"></script>
-  <link rel="icon" href="/ruby-website/assets/images/favicon.ico" />
-  <link rel="apple-touch-icon" type="image/png" href="/ruby-website/assets/images/apple-touch-icon.png">
-  <link rel="stylesheet" href="/ruby-website/assets/css/style.css">
+  <link rel="icon" href="/assets/images/favicon.ico" />
+  <link rel="apple-touch-icon" type="image/png" href="/assets/images/apple-touch-icon.png">
+  <link rel="stylesheet" href="/assets/css/style.css">
   <link rel="alternate" type="application/rss+xml"  href="/feed.xml" title="The official Neibortech blog">
+
+  <link rel="stylesheet" href="/assets/styles/sfpro-cn.css">
+  <link rel="stylesheet" href="/assets/styles/site.built.css">
+  <link rel="stylesheet" href="/assets/styles/articlev2.built.css">
+  <link rel="stylesheet" href="/about/main.built.css" type="text/css">
+  <link rel="stylesheet" href="/about/overview.built.css" type="text/css">
+  <style>:is([id*='google_ads_iframe'],[id*='taboola-'],.taboolaHeight,.taboola-placeholder,#credential_picker_container,#credentials-picker-container,#credential_picker_iframe,[id*='google-one-tap-iframe'],#google-one-tap-popup-container,.google-one-tap-modal-div,#amp_floatingAdDiv,#ez-content-blocker-container) {display:none!important;min-height:0!important;height:0!important;}</style>
+
 </head>
+
+
+<body class="page-overview">
+    <div class="banner text--align-center">
+    <p>
+        <a class="common-button--text" href="https://neibortech.org" target="_blank">
+        <b>象邻科技 2023</b> - 主页建设中 under construction ...
+        </a>
+    </p>
+    </div>
+
+
+    <nav class="nav">
+
+        <a class="nav__logo" href="" aria-label="Neibortech"></a>
+
+        <input class="nav__checkbox" id="nav__checkbox" type="checkbox" role="button" aria-label="menu" />
+
+        <label class="nav__toggle" for="nav__checkbox">
+        <span></span>
+        </label>
+
+        <div class="nav__options">
+        <div>
+
+            <ul>
+                <li><a href="https://neibortech.xyz"><span>主页</span></a></li>
+            
+                <li><a href="/services/hardware_software.html"><span>服务</span></a></li>
+            
+                <li><a href="https://www.neibortech.xyz"><span>支持</span></a></li>
+            </ul>
+
+            <ul>
+                <li><a href="/newsroom/newslanding.html"><span>新闻</span></a></li>
+            
+                <li><a href="/news/product.html"><span>关于</span></a></li>
+            
+                <li><a href="/about/about_us"><span>联系</span></a></li>
+            </ul>
+
+        </div>
+        </div>
+    
+    </nav>
+
+<section>
+    <style>
+	html {
+		margin-top: 0px !important;
+	}
+	body {
+		border-top: 1px solid transparent;
+		margin-top: -1px;
+		position: relative;
+	}
+	html.oldie body {
+  		overflow-x: visible;
+  	}
+	.adv-wrapper {
+		position: absolute;
+		top: -40px;
+		z-index: 9999;
+		background: #444;
+		line-height: 1;
+		top: -40px;
+		width: 100%;
+		right:0;
+		height: 40px;
+		z-index: 9999;
+	}
+	.ac-gn-segmentbar-visible .adv-wrapper {
+		position: absolute;
+		top: -40px;
+	}
+	.ac-gn-segmentbar-visible .macpro-gg .adv-wrapper {
+		top: 0px;
+	}
+	.adv-wrapper .adv-wrapper-text {
+		color: #a8a8aa;
+		display: block;
+		line-height: 40px;
+		overflow: hidden;
+		text-decoration: none;
+		text-overflow: ellipsis;
+		text-align: right;
+		max-width: 976px;
+		margin: 0 auto;
+	}
+
+	.ac-gn-segmentbar-visible .adv-wrapper{
+		background: transparent;
+		width: 20%
+	}
+	.ac-gn-segmentbar-visible .adv-wrapper .adv-wrapper-text {
+		width: 100%;
+		margin-left: 488px;
+		position: absolute;
+		left: -250%;
+		min-width: auto;
+	}
+
+	@media only screen and (max-width: 1023px) {
+		.adv-wrapper {
+			min-width: 20%
+		}
+		.adv-wrapper .adv-wrapper-text {
+			margin-left:auto;
+			width: auto;
+			padding: 0 22px;
+			position: relative;
+			left: 0;
+			padding-left: calc(max(22px, env(safe-area-inset-left)));
+			padding-right: calc(max(22px, env(safe-area-inset-right)));
+		}
+		.ac-gn-segmentbar-visible .adv-wrapper .adv-wrapper-text {
+			width: auto;
+			position: relative;
+			padding: 0 12px;
+			left: -6%;
+			margin: 0;
+		}
+		.ac-gn-segmentbar-visible #sonic-automotive.profiles.platter.full-nav.ac-gn-current-iphone .adv-wrapper .adv-wrapper-text,
+		.ac-gn-segmentbar-visible #ducati.profiles.platter.full-nav.ac-gn-current-iphone .adv-wrapper .adv-wrapper-text,
+		.ac-gn-segmentbar-visible #mayo-clinic.profiles.platter.ac-gn-current-iphone.full-nav .adv-wrapper .adv-wrapper-text
+		 {
+			left: -27%;
+		}
+	}
+	@media only screen and (max-width: 767px) {
+		.adv-wrapper .adv-wrapper-text {
+			line-height:40px;
+			margin-left:auto;
+			width: auto;
+			padding: 0 16px;
+			position: relative;
+			left: 0;
+		}
+		.ac-gn-segmentbar-visible .adv-wrapper .adv-wrapper-text {
+			width: auto;
+			position: relative;
+			left: 0;
+			margin: 0;
+		}
+		.ac-gn-segmentbar-visible #sonic-automotive.profiles.platter.full-nav.ac-gn-current-iphone .adv-wrapper .adv-wrapper-text,
+		.ac-gn-segmentbar-visible #ducati.profiles.platter.full-nav.ac-gn-current-iphone .adv-wrapper .adv-wrapper-text,
+		.ac-gn-segmentbar-visible #mayo-clinic.profiles.platter.ac-gn-current-iphone.full-nav .adv-wrapper .adv-wrapper-text
+		{
+			left: -25%;
+		}
+		.adv-wrapper {
+			top:-44px;
+			height: 44px
+		}
+		.ac-gn-segmentbar-visible .adv-wrapper {
+			top:-44px;
+			height: 44px
+		}
+		.adv-wrapper .adv-wrapper-text {
+			line-height: 44px;
+		}
+		html {
+			margin-top: 0px !important;
+		}
+
+	}
+	.adv-wrapper .adv-wrapper-text {
+		color: #a8a8aa;
+		font-size: 12px;
+		font-family: "SF Pro SC", "HanHei SC", "SF Pro Text", "Myriad Set Pro", "PingFang SC", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+	}
+
+
+	/* Always show in IE8, whether zoom because IE8 doesnt have responsive. */
+	/* hack for IE8 without shop button */
+	/*js no-touch no-svg ie8 no-progressive no-transforms no-tablet no-handheld no-oldTablet no-maskBoxImage no-maskedParallaxAnimation no-webgl no-video no-inlineVideo no-canvas cssFilter no-cssTransition2d no-cssTransition3d ie*/
+
+	html.ie8,html.oldie,html.oldIE {
+		margin-top: 0px !important;
+	}
+	html.ie8 .adv-wrapper,html.oldie .adv-wrapper,html.oldIE .adv-wrapper {
+		position: relative;
+		top: 0px;
+		min-width: 1024px;
+	}
+	html.ie8 .adv-wrapper .adv-wrapper-text,html.oldie .adv-wrapper .adv-wrapper-text,html.oldIE .adv-wrapper .adv-wrapper-text {
+		line-height: 40px;
+	}
+	html.ie8 #ac-globalnav,html.oldie #ac-globalnav,html.oldIE #ac-globalnav {
+		top: 40px;
+	}
+	html.ie8 .ac-familybrowser,html.oldie .ac-familybrowser,html.oldIE .ac-familybrowser {
+		top: 84px;
+	}
+	html.ie8 .ac-nav-overlap .chapternav,html.oldie .ac-nav-overlap .chapternav,html.oldIE .ac-nav-overlap .chapternav {
+		margin-top: 84px;
+	}
+	/* hack for IE8 with shop button*/
+	html.ie8.ac-gn-segmentbar-visible #ac-gn-segmentbar,html.oldie.ac-gn-segmentbar-visible #ac-gn-segmentbar,html.oldIE.ac-gn-segmentbar-visible #ac-gn-segmentbar {
+		position: relative;
+		top: 0;
+	}
+	html.ie8.ac-gn-segmentbar-visible .adv-wrapper,html.oldie.ac-gn-segmentbar-visible .adv-wrapper,html.oldIE.ac-gn-segmentbar-visible .adv-wrapper {
+		position: absolute;
+		min-width: auto;
+	}
+	</style>
+
+    <main id="main" class="main" role="main" data-page-type="overview">
+    
+	<section class="section section-vpprofiles " data-analytics-section-engagement="name:vp profiles">
+    <div class="section-content">
+        <div class="profile-list-wrapper">
+            <ul class="profile-list">
+
+                <li class="profile-list-item">                    
+                    <style type="text/css">                            
+                         .image-16123cbddbb9affd118ad9fc1c78c0d1 {
+                             background-image: url(/about/chen.png);
+                             width: 230px;
+                             height: 178px;
+                             background-size: 230px 178px;
+                             background-repeat: no-repeat;
+         				}
+                         @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+                         only screen and (min-resolution: 1.5dppx),
+                         (-webkit-min-device-pixel-ratio: 1.5),
+                         (min-resolution: 144dpi) {
+                             .image-16123cbddbb9affd118ad9fc1c78c0d1 {
+                                 background-image: url(/about/chen.png);
+                             }
+                         }
+                    </style>
+                    <a href="https://safe.cumt.edu.cn/info/1060/14889.htm" class="block" data-analytics-region="learn more">
+                        <figure class="profile-image image-16123cbddbb9affd118ad9fc1c78c0d1" role="presentation">
+                            <figcaption class="profile-caption">
+                                <h3 class="typography-body block-link profile-name">Enyuan Wang</h3>
+                                <h4 class="typography-body typography-profile-title">
+                                   Adviser <br>Safety Engineering, CUMT
+                                </h4>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </li>
+            
+                <li class="profile-list-item">                   
+                    <style type="text/css">                            
+                         .image-8957539aa282e1a6c74d9efeb1aa5b7e {
+                             background-image: url(/about/jia.png);
+                             width: 230px;
+                             height: 178px;
+                             background-size: 230px 178px;
+                             background-repeat: no-repeat;
+         				}
+                         @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+                         only screen and (min-resolution: 1.5dppx),
+                         (-webkit-min-device-pixel-ratio: 1.5),
+                         (min-resolution: 144dpi) {
+                             .image-8957539aa282e1a6c74d9efeb1aa5b7e {
+                                 background-image: url(/about/jia.png);
+                             }
+                         }
+                    </style>
+                    <a href="https://gdue.cumt.edu.cn/info/1032/3871.htm" class="block" data-analytics-region="learn more">
+                        <figure class="profile-image image-8957539aa282e1a6c74d9efeb1aa5b7e" role="presentation">
+                            <figcaption class="profile-caption">
+                                <h3 class="typography-body block-link profile-name">Tony Chen</h3>
+                                <h4 class="typography-body typography-profile-title">
+                                   Co-funder<br>CEO and Business Strategy
+                                </h4>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </li>
+            
+                <li class="profile-list-item">  
+                    <style type="text/css">                            
+                         .image-1f5b423773a445efd9e72faba66b0a51 {
+                             background-image: url(/about/zhang.png);
+                             width: 230px;
+                             height: 178px;
+                             background-size: 230px 178px;
+                             background-repeat: no-repeat;
+         				}
+                         @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+                         only screen and (min-resolution: 1.5dppx),
+                         (-webkit-min-device-pixel-ratio: 1.5),
+                         (min-resolution: 144dpi) {
+                             .image-1f5b423773a445efd9e72faba66b0a51 {
+                                 background-image: url(/about/zhang.png);
+                             }
+                         }
+                    </style>
+                    <a href="/leadership/isabel-ge-mahe/" class="block" data-analytics-region="learn more">
+                        <figure class="profile-image image-1f5b423773a445efd9e72faba66b0a51" role="presentation">
+                            <figcaption class="profile-caption">
+                                <h3 class="typography-body block-link profile-name">Kevin Jia</h3>
+                                <h4 class="typography-body typography-profile-title">
+                                   Co-funder <br> Director of Technology
+                                </h4>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </li>
+
+                <li class="profile-list-item">
+                    
+                    <style type="text/css">                            
+                         .image-7b290186898785d598d6df391ed51cc8 {
+                             background-image: url(/about/wang.png);
+                             width: 230px;
+                             height: 178px;
+                             background-size: 230px 178px;
+                             background-repeat: no-repeat;
+         				}
+                         @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+                         only screen and (min-resolution: 1.5dppx),
+                         (-webkit-min-device-pixel-ratio: 1.5),
+                         (min-resolution: 144dpi) {
+                             .image-7b290186898785d598d6df391ed51cc8 {
+                                 background-image: url(/about/wang.png);
+                             }
+                         }
+                    </style>
+                    <a href="https://safe.cumt.edu.cn" class="block" data-analytics-region="learn more">
+                        <figure class="profile-image image-7b290186898785d598d6df391ed51cc8" role="presentation">
+                            <figcaption class="profile-caption">
+                                <h3 class="typography-body block-link profile-name">XY Zhang </h3>
+                                <h4 class="typography-body typography-profile-title">
+                                   Co-CEO <br> Director of Sale
+                                </h4>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="keyline"></div>
+    </div>
+</section>
+
+	</main>
+</section>
+
+
+
+
+<footer class="footer common-background--grey common-padding--bottom common-padding--top common-shape--top-white-up-left">
+
+    <div class="footer__options">
+      <ul>
+        
+          <li><a href="">联系方式</a></li>
+        
+          <li><a href="">隐私政策</a></li>
+        
+          <li><a href="">法律信息</a></li>
+        
+          <li><a href="">网站地图</a></li>
+        
+          <li><a href="https://opensource.org/licenses/MIT">许可信息</a></li>
+        
+      </ul>
+    </div>
+  
+</footer>
+</body>
+
+
+<div cssdimensionstracker="true" style="position: fixed; top: 0px; width: 100%; height: 100vh; pointer-events: none; visibility: hidden; z-index: -1;"></div>
+
+
+
+
+</html>
