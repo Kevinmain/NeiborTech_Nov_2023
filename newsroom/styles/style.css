@@ -540,7 +540,9 @@ body img {
     height: auto !important;
     line-height: 0 !important;
     margin-bottom: -5px;
-    margin-top: -7px
+    margin-top: -7px;
+    font-family: Calibre;
+    font-size: 19px;
 }
 
 .common-button--text span {
